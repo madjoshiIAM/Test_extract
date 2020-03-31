@@ -80,3 +80,16 @@ Executing: C:\Program Files\Git\cmd\git.exe add -A
 !warning: adding embedded git repository: Test1_Bala_old
 Generating temp file for comment: adding new files
 Executing: C:\Program Files\Git\cmd\git.exe commit -F C:\Users\Administrator\AppData\Local\Temp\2\tmp8EF8.tmp
+>[master (root-commit) 9670a71] adding new files
+> 6 files changed, 121 insertions(+)
+> create mode 160000 Test1_Bala
+> create mode 160000 Test1_Bala_old
+> create mode 100644 Test_extract/VSS_to_GIT.docx
+> create mode 100644 Test_extract/test.txt
+> create mode 100644 Vss2Git.log
+> create mode 100644 Vss2Git_new.log
+Replaying changeset 3 from 03/31/2020 12:16:06
+C:\Program Files (x86)\Converted_Git\Test_extract\test.txt: Edit revision 2
+Executing: C:\Program Files\Git\cmd\git.exe add -- "C:\Program Files (x86)\Converted_Git\Test_extract\test.txt"
+Committing changeset 3 from 03/31/2020 12:16:06
+Executing: C:\Program Files\Git\cmd\git.exe add -A
