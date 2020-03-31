@@ -1,0 +1,82 @@
+VSS2Git version 1.0.10.0
+VSS encoding: Western European (Windows) (CP: 1252, IANA: Windows-1252)
+Comment transcoding: enabled
+------------------------------------------------------------
+Building revision list
+Root project: $/Test_extract
+Excluded files: 
+------------------------------------------------------------
+Analysis complete in 00:00:00
+Projects: 2 (0 excluded)
+Files: 2 (0 excluded)
+Revisions: 12
+------------------------------------------------------------
+Building changesets
+------------------------------------------------------------
+Changeset 1 - 03/31/2020 12:07:40 (0 secs) Administrator 1 files
+Test_extract
+
+  03/31/2020 12:07:40 $Test_extract(BAAAAAAA)@1 Create $Test_extract(BAAAAAAA)
+------------------------------------------------------------
+Changeset 2 - 03/31/2020 12:12:02 (0 secs) Madhu 4 files
+adding new files
+
+  03/31/2020 12:12:02 $Test_extract(BAAAAAAA)@2 Add test.txt(CAAAAAAA)
+  03/31/2020 12:12:02 $Test_extract(BAAAAAAA)@3 Add VSS_to_GIT.docx(DAAAAAAA)
+  03/31/2020 12:12:02 test.txt(CAAAAAAA)@1 Create test.txt(CAAAAAAA)
+  03/31/2020 12:12:02 VSS_to_GIT.docx(DAAAAAAA)@1 Create VSS_to_GIT.docx(DAAAAAAA)
+------------------------------------------------------------
+Changeset 3 - 03/31/2020 12:16:06 (0 secs) Madhu 1 files
+Checked in after editing
+
+  03/31/2020 12:16:06 test.txt(CAAAAAAA)@2 Edit CAAAAAAA
+------------------------------------------------------------
+Changeset 4 - 03/31/2020 12:17:43 (0 secs) Madhu 1 files
+editing the file again 1
+
+  03/31/2020 12:17:43 test.txt(CAAAAAAA)@3 Edit CAAAAAAA
+------------------------------------------------------------
+Changeset 5 - 03/31/2020 13:04:57 (0 secs) Administrator 2 files
+addinga new file
+
+  03/31/2020 13:04:57 $Test_extract(BAAAAAAA)@4 Add $NewPrj(GAAAAAAA)
+  03/31/2020 13:04:57 $NewPrj(GAAAAAAA)@1 Create $NewPrj(GAAAAAAA)
+------------------------------------------------------------
+Changeset 6 - 03/31/2020 13:05:41 (0 secs) Administrator 1 files
+
+  03/31/2020 13:05:41 $Test_extract(BAAAAAAA)@5 Delete $NewPrj(GAAAAAAA)
+------------------------------------------------------------
+Changeset 7 - 03/31/2020 13:10:45 (2 secs) Administrator 2 files
+
+  03/31/2020 13:10:43 $Test_extract(BAAAAAAA)@6 Share test.txt(CAAAAAAA) from $/Test_extract
+  03/31/2020 13:10:45 $Test_extract(BAAAAAAA)@7 Share test.txt(CAAAAAAA) from $/Test_extract
+------------------------------------------------------------
+Found 7 changesets in 00:00:00
+------------------------------------------------------------
+Initializing Git repository
+Executing: C:\Program Files\Git\cmd\git.exe init
+Replaying changeset 1 from 03/31/2020 12:07:40
+Replaying changeset 2 from 03/31/2020 12:12:02
+C:\Program Files (x86)\Converted_Git\Test_extract: Add test.txt
+Executing: C:\Program Files\Git\cmd\git.exe add -- "C:\Program Files (x86)\Converted_Git\Test_extract\test.txt"
+C:\Program Files (x86)\Converted_Git\Test_extract: Add VSS_to_GIT.docx
+Executing: C:\Program Files\Git\cmd\git.exe add -- "C:\Program Files (x86)\Converted_Git\Test_extract\VSS_to_GIT.docx"
+Committing changeset 2 from 03/31/2020 12:12:02
+Executing: C:\Program Files\Git\cmd\git.exe add -A
+!warning: adding embedded git repository: Test1_Bala
+!hint: You've added another git repository inside your current repository.
+!hint: Clones of the outer repository will not contain the contents of
+!hint: the embedded repository and will not know how to obtain it.
+!hint: If you meant to add a submodule, use:
+!hint:
+!hint: 	git submodule add <url> Test1_Bala
+!hint:
+!hint: If you added this path by mistake, you can remove it from the
+!hint: index with:
+!hint:
+!hint: 	git rm --cached Test1_Bala
+!hint:
+!hint: See "git help submodule" for more information.
+!warning: adding embedded git repository: Test1_Bala_old
+Generating temp file for comment: adding new files
+Executing: C:\Program Files\Git\cmd\git.exe commit -F C:\Users\Administrator\AppData\Local\Temp\2\tmp8EF8.tmp
