@@ -93,3 +93,14 @@ C:\Program Files (x86)\Converted_Git\Test_extract\test.txt: Edit revision 2
 Executing: C:\Program Files\Git\cmd\git.exe add -- "C:\Program Files (x86)\Converted_Git\Test_extract\test.txt"
 Committing changeset 3 from 03/31/2020 12:16:06
 Executing: C:\Program Files\Git\cmd\git.exe add -A
+Generating temp file for comment: Checked in after editing
+Executing: C:\Program Files\Git\cmd\git.exe commit -F C:\Users\Administrator\AppData\Local\Temp\2\tmp912B.tmp
+>[master 540a90b] Checked in after editing
+> 2 files changed, 83 insertions(+), 8 deletions(-)
+Replaying changeset 4 from 03/31/2020 12:17:43
+C:\Program Files (x86)\Converted_Git\Test_extract\test.txt: Edit revision 3
+Executing: C:\Program Files\Git\cmd\git.exe add -- "C:\Program Files (x86)\Converted_Git\Test_extract\test.txt"
+Committing changeset 4 from 03/31/2020 12:17:43
+Executing: C:\Program Files\Git\cmd\git.exe add -A
+Generating temp file for comment: editing the file again 1
+Executing: C:\Program Files\Git\cmd\git.exe commit -F C:\Users\Administrator\AppData\Local\Temp\2\tmp9294.tmp
